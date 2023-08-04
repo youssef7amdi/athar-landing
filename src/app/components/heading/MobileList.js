@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import Link from "next/link";
 
 const MobileList = () => {
-  const [isOpen, setIsOpen] = useState(true);
+  const [isOpen, setIsOpen] = useState(false);
 
   const handleClick = () => {
     setIsOpen(!isOpen);
