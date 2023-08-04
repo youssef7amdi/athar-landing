@@ -6,13 +6,13 @@ function MainHeading() {
       <div className="logo md:hidden">
         <Image
           className="mr-4"
-          src="/images/Athar Arabic Logo white@900x.png"
+          src="/images/Athar Arabic Logo White@900x.png"
           width={250}
           height={250}
           alt="Logo"
         ></Image>
         <Image
-          src="/images/Athar English Logo white@900x.png"
+          src="/images/Athar English Logo White@900x.png"
           width={175}
           height={175}
           alt="Logo"
