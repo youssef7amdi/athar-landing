@@ -40,7 +40,9 @@ function Services() {
             {steps.map((step) => (
               <div>
                 <button
-                  className={`step step-${step.step} ${step.step === 1 ? "active" : ""}`}
+                  className={`step step-${step.step} ${
+                    step.step === 1 ? "active" : ""
+                  }`}
                   onClick={(e) => handleClick(e, step.step)}
                 >
                   {step.step}

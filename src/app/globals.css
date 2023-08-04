@@ -55,17 +55,17 @@
 }
 
 .link {
-  @apply absolute text-white rounded-full border-2 w-[60px] h-[60px] text-xs font-bold bg-red-400 transition-all duration-300 hover:bg-red-600 flex justify-center items-center
+  @apply absolute text-white rounded-full border-2 w-[60px] h-[60px] text-xs font-bold bg-red-400 transition-all duration-300 hover:bg-red-600 flex justify-center items-center;
 }
 
 .link-offer {
-  @apply bottom-32 right-8 transform translate-y-[-8%]
+  @apply bottom-32 right-8 transform translate-y-[-8%];
 }
 
 .link-services {
-  @apply bottom-28 right-28 transform
+  @apply bottom-28 right-28 transform;
 }
 
 .link-register {
-  @apply bottom-8 right-32 transform translate-x-[-8%]
+  @apply bottom-8 right-32 transform translate-x-[-8%];
 }

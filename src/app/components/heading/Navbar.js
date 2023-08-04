@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import { usePathname } from 'next/navigation'
+import { usePathname } from "next/navigation";
 
 const Navbar = () => {
   const path = usePathname();
@@ -33,9 +33,7 @@ const Navbar = () => {
           {links.map((l) => (
             <li
               key={l.id}
-              className={`${
-                l.href === path ? "text-red-600" : ""
-              } navbar-link`}
+              className={`${l.href === path ? "text-red-600" : ""} navbar-link`}
             >
               <Link href={l.href}>{l.name}</Link>
             </li>

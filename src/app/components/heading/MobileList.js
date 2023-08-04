@@ -30,7 +30,9 @@ const MobileList = () => {
     >
       <button
         className={`button absolute bottom-8 right-8 text-white rounded-full border-2 w-[70px] h-[70px] text-sm font-bold bg-red-400 transition-all duration-300 hover:opacity-100 ${
-          isOpen ? "bg-red-600 opacity-100 shadow-lg shadow-red-200" : "opacity-40"
+          isOpen
+            ? "bg-red-600 opacity-100 shadow-lg shadow-red-200"
+            : "opacity-40"
         }`}
         onClick={handleClick}
       >
