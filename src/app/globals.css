@@ -55,7 +55,7 @@
 }
 
 .link {
-  @apply absolute text-white rounded-full border-2 w-[60px] h-[60px] text-xs font-bold bg-red-400 transition-all duration-300 hover:bg-red-600 flex justify-center items-center;
+  @apply fixed z-[100] text-white rounded-full border-2 w-[60px] h-[60px] text-xs font-bold bg-red-400 transition-all duration-300 hover:bg-red-600 flex justify-center items-center;
 }
 
 .link-offer {
